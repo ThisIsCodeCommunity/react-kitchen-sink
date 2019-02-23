@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Hello from './Hello'
+import StarWarsList from './StarWarsList'
 import './index.css'
 class App extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class App extends Component {
         <button onClick={this.changeTheName.bind(this)}>
           Change name
         </button>
+        <StarWarsList />
       </div>
     )
   }
